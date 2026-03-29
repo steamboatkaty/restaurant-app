@@ -52,8 +52,12 @@ This was resolved by adding a User-Agent header to the request, which I found ou
 - Faced module import issues when running tests.
 This was fixed by adjusting the Python path to include the project root, because Python couldn’t locate my project files.
 
+Improvements: 
+
+-Added a methoded of allowing users to input different postcodes
+-Added error handling for incomplete or incorrect postcodes
+
 Future improvements:
 
-- Add a user interface/allow users to input different postcodes
-- Improve error handling for missing or incomplete data
+- Add a graphical user interface
 - Add more comprehensive unit tests
