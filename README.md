@@ -25,7 +25,7 @@ This separation ensures the code is easier to understand, test, and extend.
 How to run:
 
 1. Clone the repository:
-git clone <your-repo-link>
+git clone <https://github.com/steamboatkaty/restaurant-app.git>
 
 2. Navigate into the project folder:
 cd restaurant-app
