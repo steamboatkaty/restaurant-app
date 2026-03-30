@@ -1,6 +1,6 @@
 # Restaurant Data Interface
 
-This project fetches restaurant data from the Just Eat API using a postcode (SE8 3NB) and displays key information in a simple console interface.
+This project fetches restaurant data from the Just Eat API using a postcode (user selected) and displays key information in a simple command line interface.
 
 The application extracts and displays:
 - Name
@@ -27,7 +27,7 @@ How to run:
 1. Clone the repository:
 git clone <https://github.com/steamboatkaty/restaurant-app.git>
 
-2. Navigate into the project folder:
+2. In terminal navigate into the project folder:
 cd restaurant-app
 
 3. Install dependencies:
@@ -35,6 +35,8 @@ pip3 install -r requirements.txt
 
 4. Run the application:
 python3 main.py
+
+5. Enter postcode when prompted by the terminal to view the top 10 results
 
 
 To run unit tests:
@@ -47,17 +49,18 @@ Assumptions:
 Errors encountered:
 
 - Encountered an issue where the API response could not be parsed as JSON.
-This was resolved by adding a User-Agent header to the request, which I found out is  required by some APIs.
+This was resolved by adding a User-Agent header to the request, which I learned is required by some APIs to accept requests.
 
 - Faced module import issues when running tests.
 This was fixed by adjusting the Python path to include the project root, because Python couldn’t locate my project files.
 
 Improvements: 
 
--Added a method of allowing users to input different postcodes
--Added error handling for incomplete or incorrect postcodes
+- Added a method of allowing users to input different postcodes
+- Added error handling for incomplete or incorrect postcodes
 
 Future improvements:
 
 - Add a graphical user interface
+- Add filtering options (e.g. by rating or cuisine)
 - Add more comprehensive unit tests
