@@ -54,7 +54,7 @@ This was fixed by adjusting the Python path to include the project root, because
 
 Improvements: 
 
--Added a methoded of allowing users to input different postcodes
+-Added a method of allowing users to input different postcodes
 -Added error handling for incomplete or incorrect postcodes
 
 Future improvements:
